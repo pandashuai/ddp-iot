@@ -1,6 +1,6 @@
 {
     "name": "ddp-iot",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "基于的node的阿里云平台物联库",
     "main": "./bin/index.js",
     "scripts": {
