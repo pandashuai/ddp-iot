@@ -1,0 +1,21 @@
+{
+    "name": "ddp-iot",
+    "version": "1.0.0",
+    "description": "基于的node的阿里云平台物联库",
+    "main": "./bin/index.js",
+    "scripts": {
+        "test": "./test/test.js"
+    },
+    "author": "邓登攀",
+    "license": "ISC",
+    "dependencies": {
+        "request": "^2.88.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pandashuai/ddp-iot.git"
+    },
+    "bugs": {
+        "url": "https://github.com/pandashuai/ddp-iot/issues"
+    }
+}

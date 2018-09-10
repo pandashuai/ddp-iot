@@ -1,38 +1,14 @@
-# ddp-iot (Node SDK 使用说明)
+const ddpIot = require('../bin');
 
-更新时间：2018-09-10 11:00:00
-
-## 环境依赖
-
-- node 注:版本需支持`ES6`，`async/await`
-
-## 安装 ddp-iot
-
-```
-
-npm install
-
-```
-
-## 初始化SDK
-
-```
-
+// new ddpIot
 const device = new ddpIot({
     Url: '<you-Url> such as:iot.cn-shanghai.aliyuncs.com',
     AccessKeySecret: '<you-AccessKeySecret>',
     AccessKeyId: '<you-AccessKeyId>',
 });
 
-```
 
-请在阿里云官网控制台AccessKey管理中创建或查看您的AccessKeyId和AccessKeySecret。
-
-## 发起调用
-
-调用该接口查询指定设备的属性记录为例。
-
-```
+// Alibaba Cloud platform to view the parameters of QueryDevicePropertyData
 (async function() {
     try {
         let res = await device.request({
@@ -50,7 +26,3 @@ const device = new ddpIot({
         console.log(error);
     }
 })();
-
-```
-
-例子请查看./test/test.js
