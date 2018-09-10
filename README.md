@@ -14,7 +14,7 @@
 
 ```
 
-npm install
+npm i ddp-iot --save
 
 ```
 
